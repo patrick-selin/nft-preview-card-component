@@ -1,3 +1,128 @@
-body {
-    background-color: beige;
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    background-color: var(--very-dark-blue-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Outfit', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+/* a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+} */
+
+.card-container {
+    width: 22rem;
+    background-color: var(--very-dark-blue-card);
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    
+}
+
+.card-container h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-style: 600;
+    
+}
+
+.card-container p {
+    color: var(--soft-blue);
+    font-size: 1.2rem;
+    font-style: 400;
+}
+
+.creator-avatar {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    
+}
+
+.creator p {
+    color: var(--soft-blue);
+    font-size: 1.2rem;
+    font-style: 400;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+
+
+/* 
+
+## Typography ### Body Copy - Font size (paragraph): 18px 
+### Font - Family: [Outfit]
+(https: //fonts.google.com/specimen/Outfit)
+    - Weights: 300, 400, 600 */ 
