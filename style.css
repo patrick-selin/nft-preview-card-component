@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: var(--cyan);
+  color: var(--cyan);
 }
 
 ul {
@@ -68,12 +68,15 @@ ul {
   padding: 1.5rem;
   background-color: var(--very-dark-blue-card);
   border-radius: 1rem;
+  position: relative;
+  
 }
 
 /* Card body image starts */
 
-.card-container .nft-image img {
+.card-container .nft-image {
   border-radius: 0.5rem;
+  position: relative;
 }
 
 /* Card body info starts  */
@@ -86,7 +89,6 @@ ul {
   font-size: 1.35rem;
   font-weight: 600;
 }
-
 
 .card-container .nft-description {
   font-size: 1.15rem;
@@ -151,5 +153,8 @@ ul {
     flex-wrap: wrap;
     scroll-behavior: auto;
     overflow: hidden;
+    width: 90%;
+    padding: 1rem;
+    min-width: 250px;
   }
 }
