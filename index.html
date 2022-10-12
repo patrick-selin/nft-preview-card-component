@@ -3,17 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link 
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-     />
-    <link 
-      rel="preconnect" 
-      href="https://fonts.gstatic.com" 
-      crossorigin
-      />
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap" 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
 
@@ -23,39 +16,46 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link 
-      rel="stylesheet" 
-      href="style.css" 
-    />
-    <title>
-      Frontend Mentor | NFT preview card component
-    </title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
   </head>
+
   <body>
+    <!-- card container -->
     <main class="card-container">
-      <a href="#">
-        <img 
-          src="./images/image-equilibrium.jpg" 
-          alt="">
-      </a>
-      <a href="#">
-        <h1>Equilibrium #3429</h1>
-      </a>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <span>0.041 ETH</span> <span>3 days left</span>
+      <!-- card body img -->
+      <div class="nft-image">
+        <img src="images/image-equilibrium.jpg" alt="equilibrium" />
+      </div>
+      <!-- card body info -->
+      <div class="card-body-info">
+        <h1 class="nft-name"><a href="#">Equilibrium #34249</a></h1>
+        <p class="nft-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <!-- card body price-info -->
+        <ul class="ntf-price-info">
+          <li>
+            <img
+              src="images/icon-ethereum.svg"alt="ethereum icon" aria-hidden="true"/>
+            <p class="cyan">0.041 ETH</p>
+          </li>
+          <li>
+            <img src="images/icon-clock.svg"alt="clock icon" aria-hidden="true"/>
+            <p>3 days left</p>
+          </li>
+        </ul>
+        <span class="line"> </span>
+        <!-- creator  -->
+        <figure class="creator-info">
+          <img src="images/image-avatar.png " alt="avatar" />
+          <figcaption class="creator-name-info">Creation of <a href="#">
+            <span class="creator-name">Jules Wyverna</span></a></figcaption>
+        </figure>
+        
+      </div>
 
-      <div class="line">-------</div>
-
-      <div class="creator"></div>
-        <img 
-          class="creator-avatar" 
-          src="./images/image-avatar.png" 
-          alt="">
-      <p>Creation of 
-        <a 
-        href="#">
-        <strong>Jules Wyvern</strong></a></p>
-    </div>
+      
     </main>
   </body>
 </html>
