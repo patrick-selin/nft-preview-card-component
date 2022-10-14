@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![solutiont](https://github.com/patrick-selin/product-preview-card-componen/blob/main/product-preview-card-component-solution2-desktop.png)
+![solution](https://github.com/patrick-selin/nft-preview-card-component/blob/main/Screenshot_NFT_preview_card_component.png)
 
 ### Links
 
