@@ -16,14 +16,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
+
 ![solutiont](https://github.com/patrick-selin/product-preview-card-componen/blob/main/product-preview-card-component-solution2-desktop.png)
 
 ### Links
 
+ Code: [CLICK](https://github.com/patrick-selin/nft-preview-card-component.git)
 
- Code: [CLICK](https://github.com/)
-
- Live Site URL: [CLICK](ttps://github.com/).
+ Live Site URL: [CLICK](https://patrick-selin.github.io/nft-preview-card-component/).
 
 ## My process
 
@@ -31,9 +31,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS
+- Media Query (375px)
 
 ### What I learned
 
-- First time using media querys.
-- And also first time using :hover effect
+I learned a lot while doing this challange. 
+
+- First time using Image Hover Overlay Effect. This was fun and challenging to learn.
+- Second time using media query. Still not confident using these, but slowly learning.
 
